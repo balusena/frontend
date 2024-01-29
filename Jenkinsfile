@@ -1,4 +1,5 @@
 @Library('roboshop') _
 
 env.cibuild = "nginx"
-nginx()
+env.component = "frontend"
+mainci()
