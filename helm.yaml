@@ -3,3 +3,16 @@ image:
 
 port: 80
 component: frontend
+
+ingress:
+  enabled: true
+  className: "nginx"
+  annotations: {}
+  hosts:
+    - host: www.robobal.store
+      paths:
+        - path: /
+          pathType: ImplementationSpecific
+          component: frontend
+          port: 80
+  tls: []
