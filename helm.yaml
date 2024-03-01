@@ -20,6 +20,6 @@ ingress:
   serviceAccount:
     create: true
     annotations:
-      eks.amazonaws.com/role-arn: arn:aws:iam::739561048503:role/eks-prod-ssm-pm-role
+      eks.amazonaws.com/role-arn: arn:aws:iam::828448425071:role/eks-prod-ssm-pm-role
 
   PARAMETERS: "CATALOGUE_URL,roboshop.prod.frontend.catalogue_url"
