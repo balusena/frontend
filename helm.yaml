@@ -1,4 +1,5 @@
-component: frontend
+image:
+  repository: 828448425071.dkr.ecr.us-east-1.amazonaws.com/frontend
 
 ingress:
   enabled: true
